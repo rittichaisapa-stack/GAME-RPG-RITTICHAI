@@ -365,7 +365,7 @@ function checkStomp(){
 
 function update(){
   if(gameOver||gameWon)return;
-  const SPD=4.5,JMP=-13,G=0.56,WW=levelData.worldW;
+  const SPD=4.5,JMP=-16,G=0.56,WW=levelData.worldW;
 
   if(keys['a']||keys['arrowleft']){player.vx=-SPD;player.facing=-1;}
   else if(keys['d']||keys['arrowright']){player.vx=SPD;player.facing=1;}
